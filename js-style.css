@@ -1,0 +1,253 @@
+.accordion-item.active .accordion-content {
+  display: block;
+}
+
+.accordion-item.active .accordion-item-title .chevron-accordion {
+  transform: rotate(90deg);
+}
+
+.file-input-chevron-img-rotate {
+  transform: rotate(180deg);
+}
+
+.ad-type-input-chevron-img-rotate {
+  transform: rotate(180deg);
+}
+
+.ad-type-input-options-open {
+  display: block;
+  opacity: 1;
+}
+
+.svg-path-blue {
+  fill: #004fc2;
+}
+
+.select-clicked {
+  border: solid 2px #004fc2 !important;
+}
+
+.file-input-options-open {
+  display: block;
+  opacity: 1;
+}
+
+.option-active {
+  font-weight: bold;
+}
+
+.select-options{
+  display:flex;
+  align-items: center;
+  font-size: 19.55px;
+  color:#17253d;
+  cursor: pointer;
+  padding-top:12px;
+  padding-bottom:12px;
+}
+
+.leaflet-popup-content {
+  background-color: white;
+  border-radius: 0px 0px 6px 6px;
+  margin: 0px 10px 0px 0px !important;
+  padding: 15px;
+  width: 100% !important;
+}
+
+.leaflet-popup-content-wrapper {
+  box-shadow: 0 2px 5.33px 0 rgba(23, 37, 61, 0.2),
+    0 0 2px 0 rgba(23, 37, 61, 0.14), 0 2px 2px 0 rgba(23, 37, 61, 0.12) !important;
+  border-radius: 6px !important;
+  border: none;
+  background-color: #004fc2 !important;
+  padding-top: 8px !important;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  padding-bottom: 0px !important;
+  width: 100% !important;
+}
+
+.leaflet-popup {
+  width: 300px !important;
+}
+
+.leaflet-popup-tip-container {
+  display: none;
+}
+
+.popup-title {
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right:10px;
+}
+
+.marker-cluster-large {
+  background-color: #002f87 !important;
+  color: #002f87 !important;
+}
+
+.marker-cluster-large div {
+  background-color: #002f87 !important;
+  color: #002f87 !important;
+}
+
+.marker-cluster-medium {
+  background-color: #0099fa !important;
+  color: #0099fa !important;
+}
+
+.marker-cluster-medium div {
+  background-color: #0099fa !important;
+  color: #0099fa !important;
+}
+
+.marker-cluster-small {
+  background-color: #f7d031 !important;
+  color: #f7d031 !important;
+}
+
+.marker-cluster-small div {
+  background-color: #f7d031 !important;
+  color: #f7d031 !important;
+}
+
+.first-row-popup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.forecast-popup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 8px;
+}
+
+.span-img-popup {
+  font-size: 12px !important;
+}
+
+.popup-badge {
+  padding-left: 14.22px;
+  padding-right: 14.22px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 3.55px;
+  font-size: 12px;
+}
+
+.popup-adress-tag {
+  background-color: #bcf3d4;
+}
+
+.popup-frame-tag {
+  background-color: #e7ebf2;
+}
+
+.popup-iris-tag {
+  background-color: #ffed95;
+}
+
+.popup-laglong-tag {
+  background-color: #cad8ff;
+}
+
+.popup-polygon-tag {
+  background-color: #ffd391;
+}
+
+.popup-multipolygon-tag {
+  background-color: #c1ecc1;
+}
+
+.badge {
+  margin-left: 30px;
+  gap: 8px;
+  padding-left: 14.22px;
+  padding-right: 14.22px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 3.55px;
+  font-size: 17.77px;
+}
+
+.country-badge {
+  background-color: #cad8ff;
+}
+
+.region-badge {
+  background-color: #ffd391;
+}
+
+.city-badge {
+  background-color: #97e9e6;
+}
+
+.zip-badge {
+  background-color: #ffef99;
+}
+
+.publisher-badge {
+  background-color: #97daff;
+}
+
+.pills {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+  margin-right: 6px;
+  border: none;
+  border-radius: 25px;
+  padding-left: 21.33px;
+  padding-right: 21.33px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 19.55px;
+}
+
+.pills-cross {
+  padding-left: 18px;
+  width: 120%;
+  cursor: pointer;
+}
+
+.pills-country {
+  background-color: #cad8ff;
+}
+
+.pills-region {
+  background-color: #ffd391;
+}
+
+.pills-city {
+  background-color: #97e9e6;
+}
+
+.pills-zip {
+  background-color: #ffed95;
+}
+
+.clear-pills {
+  margin-top: 6px;
+  padding-left: 21.33px;
+  padding-right: 21.33px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 19.55px;
+  font-weight: 600;
+  color: #004fc2;
+  cursor: pointer;
+}
+
+.pills-classic {
+  background-color: #e7ebf2;
+}
+
+.pills-publisher {
+  background-color: #97daff;
+}

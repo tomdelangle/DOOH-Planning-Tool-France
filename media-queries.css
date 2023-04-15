@@ -1,0 +1,120 @@
+
+@media screen and (max-width: 1750px) {
+  
+    .filters-parent-container {
+      margin: 10px;
+      border-radius: 8px;
+      width: 500px;
+    }
+    
+    ::-webkit-scrollbar {
+      width: 13px;
+    }
+      
+    .filters-child-container {
+      padding:20px;
+      margin-top:12px;
+      border-radius: 0px 0px 8px 8px;
+    }
+  
+    .click-or-drag {
+      font-weight: bold;
+      font-size: 15px;
+      margin:15px;
+    }
+  
+    .only-import {
+      color: #627592;
+      font-size: 15px;
+    }
+    
+    .forecast-container {
+      width:750px;
+      border-radius: 8px;
+      height:65px;
+      padding-left:30px;
+      padding-right:8px;
+    }
+  
+    .forecast-section span{
+      font-size: 14px;
+    }
+  
+    .screens-img {
+      width:20px;
+    }
+  
+    .cpm-img {
+      width:25px;
+    }
+  
+    .contacts-img {
+      width:25px;
+    }
+  
+    .title-element-accordion {
+      font-size: 20px;
+    }
+  
+    .input-label {
+      font-size: 18px;
+    }
+  
+    .span-title {
+      font-size: 23.4px;
+    }
+  
+    .download-template-instruction span {
+      font-size:15px;
+    }
+  
+    .download-link {
+      font-size:15px;
+    }
+  
+    .file-input-selected {
+      font-size:18px;
+    }
+  
+    .file-select-options {
+      font-size:18px;
+    }
+  
+    .min-cpm-label {
+      font-size:18px;
+    }
+  
+    .max-cpm-label {
+      font-size:18px;
+    }
+  
+    .select-options {
+      font-size: 18px;
+    }
+  
+    .clear-filters-button {
+      font-size:19px;
+    }
+  
+    .ad-type-select-options {
+      font-size: 18px;
+    }
+  
+    .pills{
+      font-size:19px!important;
+    }
+  
+    .classic-input{
+      font-size:18px!important;
+    }
+  
+    .uploaded-file-name {
+      font-size: 18px;
+    }
+  
+    .delete-file {
+      width: 15px;
+      height: 15px;
+    }
+  
+};

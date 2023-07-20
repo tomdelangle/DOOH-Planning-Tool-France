@@ -40,7 +40,7 @@ async function radiusLatLongFunction(fileContent) {
                 // if distance smaller than radius AND not present in already added points --> add TTD screens to ClusterMarkers layer
 
                 if (distance < point["Radius (meters)"] && !totalUniqueScreens.has(layer)) {
-                clusterMarkers.addLayer(layer);
+                //clusterMarkers.addLayer(layer);
                 totalUniqueScreens.add(layer); // add TTD screens to added points
                 };
 
